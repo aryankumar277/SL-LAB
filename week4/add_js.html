@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Addition</title>
+  </head>
+  <body>
+      Enter Number : <input type="text" id="num" name="TextBox1">
+      <br><br>
+
+      <input type="button" value="Display Result" onclick="add_digits()">
+      <div id="num_result"></div>
+
+      <script type="text/javascript">
+        function add_digits() {
+          var n = parseInt(document.getElementById("num").value);
+          var result = 0;
+          while (n != 0) {
+            result = result + n%10;
+            n = Math.floor(n/10);
+          }
+          document.getElementById("num_result").innerHTML = result;
+        }
+      </script>
+  </body>
+</html>
