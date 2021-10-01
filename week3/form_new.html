@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>
+      Feedback Form
+    </title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <h1>Feedback Form</h1>
+    <form>
+      <div>NAME :</div> <input type="text" name="name" placeholder="Enter your full name">
+      <br><br>
+
+      <div>PHONE NUMBER :</div> <input type="number" name="phone number" placeholder="Enter your phone number">
+      <br><br>
+
+      <div>EMAIL :</div> <input type="email" name="email" placeholder="Enter your email address">
+      <br><br>
+
+      <div>GENDER :</div>
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female
+      <input type="radio" name="gender" value="other"> Other
+
+      <br><br>
+      <div>DATE OF BIRTH :</div> <input type="date" name="date of birth">
+      <br><br>
+
+      <div>RATING :</div>
+      <input type="radio" name="rating" value="worst"> Worst
+      <input type="radio" name="rating" value="poor"> Poor
+      <input type="radio" name="rating" value="average"> Average
+      <input type="radio" name="rating" value="good"> Good
+      <input type="radio" name="rating" value="very good"> Very Good
+      <br><br>
+
+      <div>HOBBIES</div><br>
+      <input type="checkbox" name="hobbie" value="sports"> Sports<br>
+      <input type="checkbox" name="hobbie" value="reading"> Reading<br>
+      <input type="checkbox" name="hobbie" value="music"> Music<br>
+      <input type="checkbox" name="hobbie" value="social work"> Social Work<br>
+      <input type="checkbox" name="hobbie" value="other"> Others<br>
+
+      <br>
+      <div>FEEDBACK</div><br><br>
+      <textarea name="feedback" rows="5" cols="50" placeholder="Please enter your valuable feedback"></textarea>
+
+      <br><br>
+      <input type="button" name="submit" value="Submit" onclick="alert('Successfully Submitted')">
+      <input type="reset" name="submit" value="Reset" onclick="alert('Reset Done')">
+    </form>
+  </body>
+</html>
