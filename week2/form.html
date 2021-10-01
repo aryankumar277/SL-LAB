@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <style media="screen">
+      body { background-image: linear-gradient(white, rgb(255, 122, 89));}
+    </style>
+
+    <title>
+      Feedback Form
+    </title>
+  </head>
+
+  <body>
+    <form>
+      NAME : <input type="text" name="name" placeholder="Enter your full name">
+      <br><br>
+
+      PHONE NUMBER : <input type="number" name="phone number" placeholder="Enter your phone number">
+      <br><br>
+
+      EMAIL : <input type="email" name="email" placeholder="Enter your email address">
+      <br><br>
+
+      GENDER :
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female
+      <input type="radio" name="gender" value="other"> Other
+
+      <br><br>
+      DATE OF BIRTH : <input type="date" name="date of birth">
+      <br><br>
+
+      RATING :
+      <input type="radio" name="rating" value="worst"> Worst
+      <input type="radio" name="rating" value="poor"> Poor
+      <input type="radio" name="rating" value="average"> Average
+      <input type="radio" name="rating" value="good"> Good
+      <input type="radio" name="rating" value="very good"> Very Good
+      <br><br>
+
+      HOBBIES :-<br>
+      <input type="checkbox" name="hobbie" value="sports"> Sports<br>
+      <input type="checkbox" name="hobbie" value="reading"> Reading<br>
+      <input type="checkbox" name="hobbie" value="music"> Music<br>
+      <input type="checkbox" name="hobbie" value="social work"> Social Work<br>
+      <input type="checkbox" name="hobbie" value="other"> Others<br>
+
+      <br>
+      FEEDBACK :-<br><br>
+      <textarea name="feedback" rows="5" cols="50" placeholder="Please enter your valuable feedback"></textarea>
+
+      <br><br>
+      <input type="button" name="submit" value="Submit" onclick="alert('Successfully Submitted')">
+      <input type="reset" name="submit" value="Reset" onclick="alert('Reset Done')">
+    </form>
+  </body>
+</html>
